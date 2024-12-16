@@ -93,3 +93,20 @@ body {
 .link_primary:hover::after {
     width: 100%;
 }
+
+
+
+
+
+#footer_main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+    line-height: 25px;
+    background: #333;
+    color: #fff;
+}
+#footer_main a:hover {
+    color: #0aa5ff;
+}
