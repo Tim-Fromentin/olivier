@@ -16,3 +16,6 @@ body {
     background: #333;
     color: #fff;
 }
+#footer_main a:hover {
+    color: #0aa5ff;
+}
