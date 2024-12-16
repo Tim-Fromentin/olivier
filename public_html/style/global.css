@@ -21,7 +21,7 @@ html{box-sizing:border-box;font-size:62.5%}*,::after,::before{box-sizing:inherit
     height: 40%;
     bottom: 0;
     left: 0;
-    background: #4399fc;
+    background: #4399fc60;
     z-index: -1;
     transition: height .2s ease-in-out;
 }
