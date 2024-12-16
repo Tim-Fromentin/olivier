@@ -4,7 +4,10 @@ body {
 }
 
 
-
+#main_nav {
+    width: 100%;
+    position: fixed;
+}
 
 #main_nav ul{
     width: 100%;
