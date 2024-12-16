@@ -32,3 +32,39 @@ body {
     flex-direction: column;
     align-items: center;
 }
+.title {
+    font-size: 10rem;
+}
+.link_primary {
+    font-size: 2rem;
+    padding: 15px 25px;
+    position: relative;
+}
+.link_primary::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #000;
+    z-index: -1;
+    transition: width .4s ease-in-out;
+}
+.link_primary::after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 3px;
+    bottom: -3px;
+    right: 0;
+    background: #000;
+    z-index: -1;
+    transition: width .4s .4s ease-in-out;
+}
+.link_primary:hover::before {
+    width: 0%;
+}
+.link_primary:hover::after {
+    width: 100%;
+}
